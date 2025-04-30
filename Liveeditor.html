@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="logo">
+            LiveCodeEditor
+        </div>
+
+        <div id="BtnContainer">
+            <div class="toggleBtn active" id="html">HTML</div>
+            <div class="toggleBtn" id="css">CSS</div>
+            <div class="toggleBtn" id="js">JAVASCRIPT</div>
+            <div class="toggleBtn active"  id="output">OUTPUT</div>
+        </div>
+    </div>
+
+    <div id="bodyContainer">
+        <textarea class="panel" id="htmlPanel"></textarea>
+        <textarea class="panel hidden" id="cssPanel"></textarea>
+        <textarea class="panel hidden" id="jsPanel"></textarea>
+        <iframe class="panel" id="outputPanel"></iframe>
+    </div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
